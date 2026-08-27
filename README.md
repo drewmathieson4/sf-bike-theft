@@ -7,6 +7,7 @@ This is mostly an exploratory data analysis focused on attempting to make causal
 ## Setup
 
     uv sync
+    uv run scripts/download_data.py   # fetch the data into data/raw/
 
 ## Layout
 

@@ -21,6 +21,7 @@ identity resolution in marketing attribution.
 - Rebuilding from empty, by hand, 2026-08-26. Layout roughly follows
   Cookiecutter Data Science (data/raw is immutable + gitignored + re-fetched
   by a script; data/processed is derived).
-- Real requirements.txt with the ~5 packages actually imported, not pip freeze.
+- Dependencies live in pyproject.toml, managed with uv: only the ~5 packages
+  actually imported (`uv add`), never a pip freeze. uv.lock pins exact versions.
 - Numerator: SFPD incident reports, DataSF dataset wg3w-h783,
   incident_subcategory = 'Larceny Theft - Bicycle'.
