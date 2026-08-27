@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data — commit the download script, not the downloads
+data/raw/*
+data/interim/*
+data/processed/*
+!data/*/.gitkeep
+
+# Secrets (API tokens, etc.)
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
