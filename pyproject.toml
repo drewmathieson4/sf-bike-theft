@@ -1,7 +1,7 @@
 [project]
 name = "sf-bike-theft"
 version = "0.1.0"
-description = "Add your description here"
+description = "exploratory data analysis of bike thefts in San Francisco"
 readme = "README.md"
 authors = [
     { name = "Drew Mathieson", email = "drewmathieson4@gmail.com" }
@@ -12,9 +12,6 @@ dependencies = [
     "pandas>=3.0.5",
     "requests>=2.34.2",
 ]
-
-[project.scripts]
-sf-bike-theft = "sf_bike_theft:main"
 
 [build-system]
 requires = ["uv_build>=0.12.6,<0.13.0"]
