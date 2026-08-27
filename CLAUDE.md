@@ -1,6 +1,6 @@
 # SF Bike Theft — portfolio project
 
-## How to work with me here
+## How to work with me
 - **Teach, don't do.** Explain the reasoning, then hand me the command or the
   code and let me type it. Do not create, edit, or delete files unless I
   explicitly ask you to.
@@ -23,4 +23,4 @@ identity resolution in marketing attribution.
   by a script; data/processed is derived).
 - Real requirements.txt with the ~5 packages actually imported, not pip freeze.
 - Numerator: SFPD incident reports, DataSF dataset wg3w-h783,
-  incident_subcategory = 'Larceny Thef
+  incident_subcategory = 'Larceny Theft - Bicycle'.
