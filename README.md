@@ -1,6 +1,8 @@
 # SF Bike Theft
 
-Analysis of bicycle theft in San Francisco using SFPD incident report data from DataSF.
+Analysis of bicycle theft in San Francisco using SFPD incident report data from DataSF.  
+
+This is mostly an exploratory data analysis focused on attempting to make causal statements about bike theft in sf (or explaining why we can't).
 
 ## Setup
 
